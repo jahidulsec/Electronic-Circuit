@@ -1,0 +1,117 @@
+(ExpressProject "Mini power Supply"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2022 S008-[05/27/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\mini power supply.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\mini power supply-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\mini power supply-pspicefiles\schematic1\mini power supply.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mini power supply-pspicefiles\schematic1\mini power supply.sim"
+        (DisplayName "SCHEMATIC1-Mini Power Supply")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (MBRD350
+      (FullPartName "MBRD350.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SCHOTTKY.OLB")
+      (DeviceIndex "0"))
+    (IRFZ20
+      (FullPartName "IRFZ20.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\PWRMOS.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (BD135/PLP
+      (FullPartName "BD135/PLP.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\PHIL_BJT.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (2N3055
+      (FullPartName "2N3055.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\PWRBJT.OLB")
+      (DeviceIndex "0"))
+    (BD135-10/PLP
+      (FullPartName "BD135-10/PLP.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\PHIL_BJT.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM317K
+      (FullPartName "LM317K.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (R_var
+      (FullPartName "R_var.Normal")
+      (LibraryName
+         "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LM317H
+      (FullPartName "LM317H.Normal")
+      (LibraryName "F:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "jahid")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 78 0 564"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 5 674 24 545")
+        (Scroll "-101 230")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "F:\PROJECT\PSPICE\MINI POWER SUPPLY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (Folder "Logs"))
