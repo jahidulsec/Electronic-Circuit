@@ -9,5 +9,14 @@ Variable Input (12Vdc-36Vdc) and Variable Output (1.5Vdc-48Vdc; 0A-0.5A, 0A-5A) 
 •	Short circuit protection is included
 
 ##Project-2
-Variable frequency fixed duty cycle generator using 555 timer
+Frequency generator using 555 timer
 Tech: Multisim
+• Variable Freq Fixed duty cycle
+• Fixed freq variable duty cycle
+• Variable freq variable duty cycle
+
+##Project-3
+This circuit is design in Proteus and Multisim Platform
+✓ Input: 20Vdc
+✓ Transient voltage protection is ensured
+✓ Short circuit protection is ensured
